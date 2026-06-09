@@ -57,27 +57,22 @@ import java.util.Map;
 import safe.stics.*;
 
 import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
+
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-import java.util.Scanner;
-
-import java.util.Calendar;
-import java.util.GregorianCalendar;
-
 import safe.model.SafeDailyClimat;
-
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.File;
-
-import java.util.Map;
-import java.util.HashMap;
-import java.util.Scanner;
 
 /**
  * CROP represent the crop sowed on a SafeCell (can be baresoil)
@@ -1647,10 +1642,6 @@ import java.util.Scanner;
 		//store QNplante in kgN.ha-1
 		int indice2          = ((sticsJulianDay-1)*3)+1;
 		this.qNplante 		= this.sticsCrop.QNplante[indice2];		
-		
-		return;
-		
-		//applyExternalCropOverride(sticsJulianDay);
 	
 	}
 

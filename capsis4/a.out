@@ -1,13 +1,13 @@
-Jun 09, 2026 9:48:01 PM Log PathManager.getInstallDir ()
+Jun 09, 2026 9:49:20 PM Log PathManager.getInstallDir ()
 SEVERE: PathManager error, binDir does not exist: file:/home/runner/work/simsafea/simsafea/lubarbosa/simsafea/capsis4/ext/jackson-core-2.14.2.jar!/META-INF/versions/9/
-Jun 09, 2026 9:48:01 PM Log PathManager.getInstallDir ()
+Jun 09, 2026 9:49:20 PM Log PathManager.getInstallDir ()
 INFO: installDir main detection procedure failed due to this exception, entering auxiliary detection procedure...
 java.lang.Exception: PathManager may be in a jar file...
 	at jeeb.lib.util.PathManager.getInstallDir(PathManager.java:87)
 	at jeeb.lib.util.SVNVersion.getRevision(SVNVersion.java:85)
 	at jeeb.lib.util.SVNVersion.main(SVNVersion.java:100)
 
-Jun 09, 2026 9:48:01 PM System.out 
+Jun 09, 2026 9:49:20 PM System.out 
 : PathManager installDir (auxiliary procedure): /home/runner/work/simsafea/simsafea/lubarbosa/simsafea/capsis4
-Jun 09, 2026 9:48:01 PM System.out 
+Jun 09, 2026 9:49:20 PM System.out 
 : Could not get SVN revision for: /home/runner/work/simsafea/simsafea/lubarbosa/simsafea/capsis4, SVNkit exception: org.tmatesoft.svn.core.SVNException: svn: E155007: '/home/runner/work/simsafea/simsafea/lubarbosa/simsafea/capsis4' is not a working copy
