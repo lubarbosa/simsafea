@@ -1,13 +1,13 @@
 /** 
- * Hi-SAFE : A 3D Agroforestry Model for Integrating Dynamic Tree–Crop Interactions
+ * Hi-SAFE : A 3D Agroforestry Model for Integrating Dynamic Treeï¿½Crop Interactions
  * 
  * Copyright (C) 2000-2025 INRAE - CC-BY License
  * 
  * LIST OF AUTHORS
  * --------------- 
- * Christian Dupraz 1, Kevin J.Wolz 1 , Isabelle Lecomte 1, Grégoire Talbot 1, Nicolas Barbault 1, 
- * Grégoire Vincent 2 , Rachmat Mulia 3, François Bussière 4, Harry Ozier-Lafontaine 4,
- * Sitraka Andrianarisoa 1, Nick Jackson 5, Gerry Lawson 5, Nicolas Dones 6, Hervé Sinoquet 6,
+ * Christian Dupraz 1, Kevin J.Wolz 1 , Isabelle Lecomte 1, Grï¿½goire Talbot 1, Nicolas Barbault 1, 
+ * Grï¿½goire Vincent 2 , Rachmat Mulia 3, Franï¿½ois Bussiï¿½re 4, Harry Ozier-Lafontaine 4,
+ * Sitraka Andrianarisoa 1, Nick Jackson 5, Gerry Lawson 5, Nicolas Dones 6, Hervï¿½ Sinoquet 6,
  * Betha Lusiana 3, Degi Harja 3, Suzy Domenicano 7 , Francesco Reyes 1 , Marie Gosme 1 ,
  * Meine Van Noordwijk 3, Benoit Courbaud 8
  *
@@ -16,9 +16,9 @@
  * 3 ICRAF, Bogor 16001, Indonesia
  * 4 INRA (UR ASTRO 1231) Centre Antilles-Guyane, Petit-Bourg, 97170 Guadeloupe, France
  * 5 CEH, NERC,Wallingford OX10 8BB, UK
- * 6 INRA (UMR-PIAF), Université Clermont Auvergne, 63000 Clermont-Ferrand, France
- * 7 Centre d’étude de la forêt, Université du Quebec, Montreal H2X 3Y5, Canada
- * 8 CEMAGREF, Mountain Ecosystems and Landcapes Research Unit, Saint-Martin-d’Hères, France
+ * 6 INRA (UMR-PIAF), Universitï¿½ Clermont Auvergne, 63000 Clermont-Ferrand, France
+ * 7 Centre dï¿½ï¿½tude de la forï¿½t, Universitï¿½ du Quebec, Montreal H2X 3Y5, Canada
+ * 8 CEMAGREF, Mountain Ecosystems and Landcapes Research Unit, Saint-Martin-dï¿½Hï¿½res, France
  *
  *----------------------------------------------------------------------------------------------
  * 
@@ -26,15 +26,15 @@
  * Hi-SAFE is free software under the terms of the CC-BY License as published by the Creative Commons Corporation
  *
  * You are free to:
- *		Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
- *		Adapt — remix, transform, and build upon the material for any purpose, even commercially.
+ *		Share ï¿½ copy and redistribute the material in any medium or format for any purpose, even commercially.
+ *		Adapt ï¿½ remix, transform, and build upon the material for any purpose, even commercially.
  *		The licensor cannot revoke these freedoms as long as you follow the license terms.
  * 
  * Under the following terms:
- * 		Attribution — 	You must give appropriate credit , provide a link to the license, and indicate if changes were made . 
+ * 		Attribution ï¿½ 	You must give appropriate credit , provide a link to the license, and indicate if changes were made . 
  *               		You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
  *               
- * 		No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+ * 		No additional restrictions ï¿½ You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
  *               
  * Notices:
  * 		You do not have to comply with the license for elements of the material in the public domain or where your use is permitted 
@@ -152,9 +152,9 @@ import java.util.Scanner;
 		3=dor DORMANCE (ou DEBDORM et FINDORM pour les ligneux)	
 		4=ger GERMINATION	
 		5=lev LEVEE		
-		6=amf accélération maximale de croissance foliaire		
-		7=lax indice foliaire maxi, fin de croissance foliaire nette ou brute selon l’option.		
-		8=sen début sénescence nette (option LAInet)		
+		6=amf accï¿½lï¿½ration maximale de croissance foliaire		
+		7=lax indice foliaire maxi, fin de croissance foliaire nette ou brute selon lï¿½option.		
+		8=sen dï¿½but sï¿½nescence nette (option LAInet)		
 		9=lan indice foliaire nul (option LAInet)		
 		10=rec RECOLTE
 	*/
@@ -165,11 +165,11 @@ import java.util.Scanner;
 	/** Crop Phenological stage reproductive
 		1=snu SOL NU
 		2=flo Floraison		
-		3=drp début remplissage des organes récoltés		
-		4=nou Nouaison (Fin de la nouaison, pour les plantes indéterminées)		
-		5=des début dessication des organes récoltés	
-		6=mat maturité physiologique	
-		7=rec Récolte
+		3=drp dï¿½but remplissage des organes rï¿½coltï¿½s		
+		4=nou Nouaison (Fin de la nouaison, pour les plantes indï¿½terminï¿½es)		
+		5=des dï¿½but dessication des organes rï¿½coltï¿½s	
+		6=mat maturitï¿½ physiologique	
+		7=rec Rï¿½colte
 	*/
 	private int phenologicStageReproductive;
 	/** Computing days between 2 stages reproductive */
@@ -406,7 +406,7 @@ import java.util.Scanner;
 
 //		Map<String, Double> cropState = new HashMap<>();
 //		cropState.put("biomass", Double.parseDouble(parts[0].trim()));          // t/ha
-//		cropState.put("lai", Double.parseDouble(parts[1].trim()));              // m²/m²
+//		cropState.put("lai", Double.parseDouble(parts[1].trim()));              // mï¿½/mï¿½
 //		cropState.put("root_depth_m", Double.parseDouble(parts[2].trim()));     // m
 //		cropState.put("grain_biomass", Double.parseDouble(parts[3].trim()));    // t/ha
 //		cropState.put("plant_n", Double.parseDouble(parts[4].trim()));          // kgN/ha
@@ -474,7 +474,7 @@ import java.util.Scanner;
 		Map<String, Double> cropState = new HashMap<>();
 		try {
 		    cropState.put("biomass", Double.parseDouble(cropParts[0].trim()));          // t/ha
-		    cropState.put("lai", Double.parseDouble(cropParts[1].trim()));              // m²/m²
+		    cropState.put("lai", Double.parseDouble(cropParts[1].trim()));              // mï¿½/mï¿½
 		    cropState.put("root_depth_m", Double.parseDouble(cropParts[2].trim()));     // m
 		    cropState.put("grain_biomass", Double.parseDouble(cropParts[3].trim()));    // t/ha
 		    cropState.put("plant_n", Double.parseDouble(cropParts[4].trim()));          // kgN/ha
@@ -565,7 +565,7 @@ import java.util.Scanner;
 	    this.sticsCrop.masec[indice] = newBiomass;
 	    System.out.println("  masec[" + indice + "]: " + oldBiomass + " -> " + newBiomass + " t/ha");
 	    
-	    // 2. Override LAI [m²/m²]
+	    // 2. Override LAI [mï¿½/mï¿½]
 	    if (this.sticsCrop.lai != null && indice < this.sticsCrop.lai.length) {
 		float oldLai = this.sticsCrop.lai[indice];
 		float newLai = cropState.get("lai").floatValue();
@@ -573,7 +573,7 @@ import java.util.Scanner;
 		// Also update adjacent indices (shade+sun, shade for associated crops)
 		if (indice > 0) this.sticsCrop.lai[indice - 1] = newLai;  // index 0 (shade+sun)
 		if (indice + 1 < this.sticsCrop.lai.length) this.sticsCrop.lai[indice + 1] = newLai;  // index 2 (shade)
-		System.out.println("  lai[" + indice + "]: " + oldLai + " -> " + newLai + " m²/m²");
+		System.out.println("  lai[" + indice + "]: " + oldLai + " -> " + newLai + " mï¿½/mï¿½");
 	    }
 	    
 	    // 3. Override root depth [cm] (convert from m)
@@ -582,12 +582,12 @@ import java.util.Scanner;
 	    this.sticsCrop.zrac = newZrac;
 	    System.out.println("  zrac: " + oldZrac + " -> " + newZrac + " cm");
 	    
-	    // 4. Override grain biomass [g/m²] (convert from t/ha)
+	    // 4. Override grain biomass [g/mï¿½] (convert from t/ha)
 	    if (this.sticsCrop.magrain != null && indice < this.sticsCrop.magrain.length) {
 		float oldGrain = this.sticsCrop.magrain[indice];
-		float newGrain = (float) (cropState.get("grain_biomass") * 100.0);  // t/ha -> g/m²
+		float newGrain = (float) (cropState.get("grain_biomass") * 100.0);  // t/ha -> g/mï¿½
 		this.sticsCrop.magrain[indice] = newGrain;
-		System.out.println("  magrain[" + indice + "]: " + oldGrain + " -> " + newGrain + " g/m²");
+		System.out.println("  magrain[" + indice + "]: " + oldGrain + " -> " + newGrain + " g/mï¿½");
 	    }
 	    
 	    // 5. Override plant nitrogen [kgN/ha]
@@ -732,7 +732,7 @@ import java.util.Scanner;
 //		Map<String, Double> cropState = new HashMap<>();
 //		try {
 //		    cropState.put("biomass", Double.parseDouble(cropParts[0].trim()));          // t/ha
-//		    cropState.put("lai", Double.parseDouble(cropParts[1].trim()));              // m²/m²
+//		    cropState.put("lai", Double.parseDouble(cropParts[1].trim()));              // mï¿½/mï¿½
 //		    cropState.put("root_depth_m", Double.parseDouble(cropParts[2].trim()));     // m
 //		    cropState.put("grain_biomass", Double.parseDouble(cropParts[3].trim()));    // t/ha
 //		    cropState.put("plant_n", Double.parseDouble(cropParts[4].trim()));          // kgN/ha
@@ -854,7 +854,7 @@ import java.util.Scanner;
 //	    this.sticsCrop.masec[indice] = newBiomass;
 //	    System.out.println("  masec[" + indice + "]: " + oldBiomass + " -> " + newBiomass + " t/ha");
 //	    
-//	    // 2. Override LAI [m²/m²]
+//	    // 2. Override LAI [mï¿½/mï¿½]
 //	    if (this.sticsCrop.lai != null && indice < this.sticsCrop.lai.length) {
 //		float oldLai = this.sticsCrop.lai[indice];
 //		float newLai = cropState.get("lai").floatValue();
@@ -862,7 +862,7 @@ import java.util.Scanner;
 //		// Also update adjacent indices (shade+sun, shade for associated crops)
 //		if (indice > 0) this.sticsCrop.lai[indice - 1] = newLai;  // index 0 (shade+sun)
 //		if (indice + 1 < this.sticsCrop.lai.length) this.sticsCrop.lai[indice + 1] = newLai;  // index 2 (shade)
-//		System.out.println("  lai[" + indice + "]: " + oldLai + " -> " + newLai + " m²/m²");
+//		System.out.println("  lai[" + indice + "]: " + oldLai + " -> " + newLai + " mï¿½/mï¿½");
 //	    }
 //	    
 //	    // 3. Override root depth [cm] (convert from m)
@@ -871,12 +871,12 @@ import java.util.Scanner;
 //	    this.sticsCrop.zrac = newZrac;
 //	    System.out.println("  zrac: " + oldZrac + " -> " + newZrac + " cm");
 //	    
-//	    // 4. Override grain biomass [g/m²] (convert from t/ha)
+//	    // 4. Override grain biomass [g/mï¿½] (convert from t/ha)
 //	    if (this.sticsCrop.magrain != null && indice < this.sticsCrop.magrain.length) {
 //		float oldGrain = this.sticsCrop.magrain[indice];
-//		float newGrain = (float) (cropState.get("grain_biomass") * 100.0);  // t/ha -> g/m²
+//		float newGrain = (float) (cropState.get("grain_biomass") * 100.0);  // t/ha -> g/mï¿½
 //		this.sticsCrop.magrain[indice] = newGrain;
-//		System.out.println("  magrain[" + indice + "]: " + oldGrain + " -> " + newGrain + " g/m²");
+//		System.out.println("  magrain[" + indice + "]: " + oldGrain + " -> " + newGrain + " g/mï¿½");
 //	    }
 //	    
 //	    // 5. Override plant nitrogen [kgN/ha]
@@ -1013,7 +1013,12 @@ import java.util.Scanner;
 	}*/
 	// In SafeCrop class (as a field)
 	private GregorianCalendar simulationDateStart = null;
-	
+
+	// Tracks the current simulation year internally (0 = not yet initialized)
+	private int simulationCurrentYear = 0;
+	// Tracks the previous call's julian day to detect year-boundary crossings
+	private int prevSimulationJulianDay = -1;
+
 	// For writing daily weather debug file
 	private BufferedWriter weatherWriter = null;
 	private boolean weatherHeaderWritten = false;
@@ -1111,6 +1116,8 @@ import java.util.Scanner;
 		this.diffuseParIntercepted= 0;
 		this.competitionIndexForTotalPar= 1;
 		this.startDay = 0;
+		this.simulationCurrentYear = 0;
+		this.prevSimulationJulianDay = -1;
 		// Load biomass overrides (once, shared across all cells)
 		//loadBiomassOverridesIfNeeded();
 	}
@@ -1479,33 +1486,26 @@ import java.util.Scanner;
 		}
 		
 		
-		// --- Compute Gregorian simulation date from simulationDateStart + simulationJulianDay ---
-		// --- Lazy initialization of the simulation start date (only once) ---
-		if (simulationDateStart == null) {
-		    // TODO: replace these constants with the real start date if you have it:
-		    int startYear  = 2000;
-		    int startMonth = 0;  // January = 0 in Calendar
-		    int startDay   = 1;  // 1st
-
-		    simulationDateStart = new GregorianCalendar(startYear, startMonth, startDay);
+		// --- Compute Gregorian simulation date, advancing the year automatically ---
+		// Initialize on the first call from the lazy-initialized simulationDateStart (default year 2000).
+		if (simulationCurrentYear == 0) {
+		    if (simulationDateStart == null) {
+		        simulationDateStart = new GregorianCalendar(2000, 0, 1);
+		    }
+		    simulationCurrentYear = simulationDateStart.get(Calendar.YEAR);
 		}
-
-		    // --- Compute Gregorian date for this simulationJulianDay ---
-		String gregorianDate = "unknownDate";
-		if (simulationDateStart != null) {
-		    GregorianCalendar currentDate = (GregorianCalendar) simulationDateStart.clone();
-
-		    // If simulationJulianDay = 1 for the first simulated day:
-		    currentDate.add(Calendar.DAY_OF_YEAR, simulationJulianDay - 1);
-		    // If your simulationJulianDay starts at 0, use:
-		    // currentDate.add(Calendar.DAY_OF_YEAR, simulationJulianDay);
-
-		    int year  = currentDate.get(Calendar.YEAR);
-		    int month = currentDate.get(Calendar.MONTH) + 1; // MONTH is 0-based
-		    int day   = currentDate.get(Calendar.DAY_OF_MONTH);
-
-		    gregorianDate = String.format("%02d.%02d.%04d", day, month, year);
+		// Detect a year boundary: julian day went back to 1 from a later day.
+		if (prevSimulationJulianDay > 1 && simulationJulianDay == 1) {
+		    simulationCurrentYear++;
 		}
+		prevSimulationJulianDay = simulationJulianDay;
+
+		// Build the full Gregorian date for this (year, julian day) pair.
+		GregorianCalendar currentDate = new GregorianCalendar(simulationCurrentYear, 0, 1);
+		currentDate.add(Calendar.DAY_OF_YEAR, simulationJulianDay - 1);
+		int month = currentDate.get(Calendar.MONTH) + 1; // MONTH is 0-based
+		int day   = currentDate.get(Calendar.DAY_OF_MONTH);
+		String gregorianDate = String.format("%02d.%02d.%04d", day, month, simulationCurrentYear);
 		
 		// Debug: Hi-SAFE -> STICS inputs for this cell and day
 		try {
@@ -1514,10 +1514,6 @@ import java.util.Scanner;
 		    String zoneName = (zone != null ? zone.getName() : "nullZone");
 		    // If you have a species name in SafeCrop
 		    String cropName = (this.cropSpeciesName != null ? this.cropSpeciesName : "nullCrop");
-		    //GregorianCalendar is in safeModel.java
-		    //int year  = this.getYear();
-		    //int month = currentDate.getMonthValue(); // 1-12
-		    //int day   = currentDate.getDayOfMonth(); // 1-31
 
 		    System.out.println(
 			"SafeCrop.HiSafeToStics:"
@@ -1880,8 +1876,8 @@ import java.util.Scanner;
 				sumHisafeWaterStressVegetative=0;
 				sumHisafeNitrogenStressVegetative=0;
 			}
-			//rajouté IL 11/06/2025
-			//sinon bug sol nu après récolte 
+			//rajoutï¿½ IL 11/06/2025
+			//sinon bug sol nu aprï¿½s rï¿½colte 
 			Arrays.fill(this.sticsCrop.ep	, 0);
 			Arrays.fill(this.sticsCrop.eop	, 0);
 			this.sticsCrop.mafruit = 0;
@@ -2572,9 +2568,9 @@ import java.util.Scanner;
 		3=dor dormancy 
 		4=ger germination	
 		5=lev levee		
-		6=amf accélération maximale de croissance foliaire		
-		7=lax indice foliaire maxi, fin de croissance foliaire nette ou brute selon l’option.		
-		8=sen début sénescence nette (option LAInet)		
+		6=amf accï¿½lï¿½ration maximale de croissance foliaire		
+		7=lax indice foliaire maxi, fin de croissance foliaire nette ou brute selon lï¿½option.		
+		8=sen dï¿½but sï¿½nescence nette (option LAInet)		
 		9=lan indice foliaire nul (option LAInet)		
 		10=rec recolte
 	 */
@@ -2583,10 +2579,10 @@ import java.util.Scanner;
 	 * return the crop phenologic stage vegetative
 		1=snu bare soil	
 		2=flo flowering	
-		3=drp début remplissage des organes récoltés		
-		4=nou nouaison (Fin de la nouaison, pour les plantes indéterminées)		
-		5=des début dessication des organes récoltés	
-		6=mat maturité physiologique	
+		3=drp dï¿½but remplissage des organes rï¿½coltï¿½s		
+		4=nou nouaison (Fin de la nouaison, pour les plantes indï¿½terminï¿½es)		
+		5=des dï¿½but dessication des organes rï¿½coltï¿½s	
+		6=mat maturitï¿½ physiologique	
 		7=rec recolte
 	 */
 	public int getPhenologicStageReproductive () {return phenologicStageReproductive;}
@@ -2851,13 +2847,13 @@ import java.util.Scanner;
 		return plantRoots.getWaterUptakePotential();
 	}
 	
-	//PHENOLOGY (stades végétatifs) 
+	//PHENOLOGY (stades vï¿½gï¿½tatifs) 
 	//PLT : semis ou plantation (annuelles)
 	public int getNplt() {
 		if (this.sticsCrop.nplt==0) return 0;
 		return this.sticsCrop.nplt+startDay;
 	}	
-	//DEBDORM et FINDORM : entrée et levée de dormance (ligneux)
+	//DEBDORM et FINDORM : entrï¿½e et levï¿½e de dormance (ligneux)
 	public int getNdebdorm() {
 		if (this.sticsCrop.ndebdorm==0) return 0;
 		return this.sticsCrop.ndebdorm+startDay;
@@ -2866,7 +2862,7 @@ import java.util.Scanner;
 		if (this.sticsCrop.nfindorm==0) return 0;
 		return this.sticsCrop.nfindorm+startDay;
 	}
-	//LEV : levée ou débourrement végétatif
+	//LEV : levï¿½e ou dï¿½bourrement vï¿½gï¿½tatif
 	public int getNlev() {
 		if (this.sticsCrop.nlev==0) return 0;
 		return this.sticsCrop.nlev+startDay;
@@ -2876,17 +2872,17 @@ import java.util.Scanner;
 		if (this.sticsCrop.nger==0) return 0;
 		return this.sticsCrop.nger+startDay;
 	}
-    //AMF : accélération maximale de croissance foliaire, fin de phase juvénile
+    //AMF : accï¿½lï¿½ration maximale de croissance foliaire, fin de phase juvï¿½nile
 	public int getNamf() {
 		if (this.sticsCrop.namf==0) return 0;
 		return this.sticsCrop.namf+startDay;
 	}	
-	//LAX : indice foliaire maxi, fin de croissance foliaire nette ou brute selon l’option.
+	//LAX : indice foliaire maxi, fin de croissance foliaire nette ou brute selon lï¿½option.
 	public int getNlax() {
 		if (this.sticsCrop.nlax==0) return 0;
 		return this.sticsCrop.nlax+startDay;
 	}		
-	//SEN : début sénescence nette (option LAInet)
+	//SEN : dï¿½but sï¿½nescence nette (option LAInet)
 	public int getNsen() {
 		if (this.sticsCrop.nsen==0) return 0;
 		return this.sticsCrop.nsen+startDay;
@@ -2896,33 +2892,33 @@ import java.util.Scanner;
 		if (this.sticsCrop.nlan==0) return 0;
 		return this.sticsCrop.nlan+startDay;
 	}
-	//REC : récolte
+	//REC : rï¿½colte
 	public int getNrec() {
 		if (this.sticsCrop.nrec==0) return 0;
 		return this.sticsCrop.nrec+startDay;
 	}
-	//PHENOLOGY (stades organes récoltés)
-	//FLO : floraison (début sensibilité au gel des fruits)
+	//PHENOLOGY (stades organes rï¿½coltï¿½s)
+	//FLO : floraison (dï¿½but sensibilitï¿½ au gel des fruits)
 	public int getNflo() {
 		if (this.sticsCrop.nflo==0) return 0;
 		return this.sticsCrop.nflo+startDay;
 	}
-    //DRP : début remplissage des organes récoltés
+    //DRP : dï¿½but remplissage des organes rï¿½coltï¿½s
 	public int getNdrp() {
 		if (this.sticsCrop.ndrp==0) return 0;
 		return this.sticsCrop.ndrp+startDay;
 	}	
-	//NOU : fin de la nouaison (option indéterminée)
+	//NOU : fin de la nouaison (option indï¿½terminï¿½e)
 	public int getNnou() {
 		if (this.sticsCrop.nnou==0) return 0;
 		return this.sticsCrop.nnou+startDay;
 	}		
-	//DEBDES ; début dynamique hydrique des fruits
+	//DEBDES ; dï¿½but dynamique hydrique des fruits
 	public int getNdebdes() {
 		if (this.sticsCrop.ndebdes==0) return 0;
 		return this.sticsCrop.ndebdes+startDay;
 	}	
-	//MAT : maturité physiologique
+	//MAT : maturitï¿½ physiologique
 	public int getNmat() {
 		if (this.sticsCrop.nmat==0) return 0;
 		return this.sticsCrop.nmat+startDay;
