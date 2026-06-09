@@ -1,0 +1,303 @@
+[ERROR] 2026-02-19 20:52:07.462 [main] IOHelper - Error opening InputStream for File: /home/hydros/Downloads/SIMPLACE/AGROECO4CAST_AF/AGROECO4CAST_AF/data/weather/daily_mean_RES1_CFWSimVariable [vColumn, null, INT]RFWSimVariable [vRow, null, INT].csv.gz
+java.lang.NullPointerException: null
+	at java.util.zip.InflaterInputStream.<init>(InflaterInputStream.java:83) ~[?:?]
+	at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:77) ~[?:?]
+	at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:91) ~[?:?]
+	at net.simplace.core.service.IOHelper.getInputStream(IOHelper.java:696) [simplace_core.jar:?]
+	at net.simplace.core.service.IOHelper.readLinesOfFile(IOHelper.java:577) [simplace_core.jar:?]
+	at net.simplace.core.service.IOHelper.readFileToArray(IOHelper.java:795) [simplace_core.jar:?]
+	at net.simplace.sim.io.FileData.getDataCache(FileData.java:145) [simplace_core.jar:?]
+	at net.simplace.sim.io.resources.adapter.CSVResourceAdapter.getData(CSVResourceAdapter.java:135) [simplace_core.jar:?]
+	at net.simplace.sim.io.resources.adapter.CSVResourceAdapter.getData(CSVResourceAdapter.java:118) [simplace_core.jar:?]
+	at net.simplace.sim.io.resources.FWSimResourceManager.updateResources(FWSimResourceManager.java:161) [simplace_core.jar:?]
+	at net.simplace.sim.wrapper.SimplaceWrapper.runSimulations(SimplaceWrapper.java:291) [simplace_core.jar:?]
+	at net.simplace.sim.wrapper.SimplaceWrapper.runSimulations(SimplaceWrapper.java:309) [simplace_core.jar:?]
+[ERROR] 2026-02-19 20:52:07.472 [main] FWSimResourceManager - Resource is missing: 
+net.simplace.sim.exceptions.MissingSimResourceException: Cache could not be build for File: /home/hydros/Downloads/SIMPLACE/AGROECO4CAST_AF/AGROECO4CAST_AF/data/weather/daily_mean_RES1_CFWSimVariable [vColumn, null, INT]RFWSimVariable [vRow, null, INT].csv.gz ... java.lang.NullPointerException
+	at net.simplace.sim.io.resources.adapter.CSVResourceAdapter.getData(CSVResourceAdapter.java:146) ~[simplace_core.jar:?]
+	at net.simplace.sim.io.resources.adapter.CSVResourceAdapter.getData(CSVResourceAdapter.java:118) ~[simplace_core.jar:?]
+	at net.simplace.sim.io.resources.FWSimResourceManager.updateResources(FWSimResourceManager.java:161) [simplace_core.jar:?]
+	at net.simplace.sim.wrapper.SimplaceWrapper.runSimulations(SimplaceWrapper.java:291) [simplace_core.jar:?]
+	at net.simplace.sim.wrapper.SimplaceWrapper.runSimulations(SimplaceWrapper.java:309) [simplace_core.jar:?]
+Caused by: java.io.IOException: java.lang.NullPointerException
+	at net.simplace.core.service.IOHelper.getInputStream(IOHelper.java:703) ~[simplace_core.jar:?]
+	at net.simplace.core.service.IOHelper.readLinesOfFile(IOHelper.java:577) ~[simplace_core.jar:?]
+	at net.simplace.core.service.IOHelper.readFileToArray(IOHelper.java:795) ~[simplace_core.jar:?]
+	at net.simplace.sim.io.FileData.getDataCache(FileData.java:145) ~[simplace_core.jar:?]
+	at net.simplace.sim.io.resources.adapter.CSVResourceAdapter.getData(CSVResourceAdapter.java:135) ~[simplace_core.jar:?]
+	... 4 more
+Caused by: java.lang.NullPointerException
+	at java.util.zip.InflaterInputStream.<init>(InflaterInputStream.java:83) ~[?:?]
+	at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:77) ~[?:?]
+	at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:91) ~[?:?]
+	at net.simplace.core.service.IOHelper.getInputStream(IOHelper.java:696) ~[simplace_core.jar:?]
+	at net.simplace.core.service.IOHelper.readLinesOfFile(IOHelper.java:577) ~[simplace_core.jar:?]
+	at net.simplace.core.service.IOHelper.readFileToArray(IOHelper.java:795) ~[simplace_core.jar:?]
+	at net.simplace.sim.io.FileData.getDataCache(FileData.java:145) ~[simplace_core.jar:?]
+	at net.simplace.sim.io.resources.adapter.CSVResourceAdapter.getData(CSVResourceAdapter.java:135) ~[simplace_core.jar:?]
+	... 4 more
+[ERROR] 2026-02-19 20:54:45.946 [main] IOHelper - Error opening InputStream for File: /home/hydros/Downloads/SIMPLACE/AGROECO4CAST_AF/AGROECO4CAST_AF/data/weather/daily_mean_RES1_C452R294.csv.gz
+java.lang.NullPointerException: null
+	at java.util.zip.InflaterInputStream.<init>(InflaterInputStream.java:83) ~[?:?]
+	at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:77) ~[?:?]
+	at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:91) ~[?:?]
+	at net.simplace.core.service.IOHelper.getInputStream(IOHelper.java:696) [simplace_core.jar:?]
+	at net.simplace.core.service.IOHelper.readLinesOfFile(IOHelper.java:577) [simplace_core.jar:?]
+	at net.simplace.core.service.IOHelper.readFileToArray(IOHelper.java:795) [simplace_core.jar:?]
+	at net.simplace.sim.io.FileData.getDataCache(FileData.java:145) [simplace_core.jar:?]
+	at net.simplace.sim.io.resources.adapter.CSVResourceAdapter.getData(CSVResourceAdapter.java:135) [simplace_core.jar:?]
+	at net.simplace.sim.io.resources.adapter.CSVResourceAdapter.getData(CSVResourceAdapter.java:118) [simplace_core.jar:?]
+	at net.simplace.sim.io.resources.FWSimResourceManager.updateResources(FWSimResourceManager.java:161) [simplace_core.jar:?]
+	at net.simplace.sim.wrapper.SimplaceWrapper.runSimulations(SimplaceWrapper.java:291) [simplace_core.jar:?]
+	at net.simplace.sim.wrapper.SimplaceWrapper.runSimulations(SimplaceWrapper.java:309) [simplace_core.jar:?]
+[ERROR] 2026-02-19 20:54:45.956 [main] FWSimResourceManager - Resource is missing: 
+net.simplace.sim.exceptions.MissingSimResourceException: Cache could not be build for File: /home/hydros/Downloads/SIMPLACE/AGROECO4CAST_AF/AGROECO4CAST_AF/data/weather/daily_mean_RES1_C452R294.csv.gz ... java.lang.NullPointerException
+	at net.simplace.sim.io.resources.adapter.CSVResourceAdapter.getData(CSVResourceAdapter.java:146) ~[simplace_core.jar:?]
+	at net.simplace.sim.io.resources.adapter.CSVResourceAdapter.getData(CSVResourceAdapter.java:118) ~[simplace_core.jar:?]
+	at net.simplace.sim.io.resources.FWSimResourceManager.updateResources(FWSimResourceManager.java:161) [simplace_core.jar:?]
+	at net.simplace.sim.wrapper.SimplaceWrapper.runSimulations(SimplaceWrapper.java:291) [simplace_core.jar:?]
+	at net.simplace.sim.wrapper.SimplaceWrapper.runSimulations(SimplaceWrapper.java:309) [simplace_core.jar:?]
+Caused by: java.io.IOException: java.lang.NullPointerException
+	at net.simplace.core.service.IOHelper.getInputStream(IOHelper.java:703) ~[simplace_core.jar:?]
+	at net.simplace.core.service.IOHelper.readLinesOfFile(IOHelper.java:577) ~[simplace_core.jar:?]
+	at net.simplace.core.service.IOHelper.readFileToArray(IOHelper.java:795) ~[simplace_core.jar:?]
+	at net.simplace.sim.io.FileData.getDataCache(FileData.java:145) ~[simplace_core.jar:?]
+	at net.simplace.sim.io.resources.adapter.CSVResourceAdapter.getData(CSVResourceAdapter.java:135) ~[simplace_core.jar:?]
+	... 4 more
+Caused by: java.lang.NullPointerException
+	at java.util.zip.InflaterInputStream.<init>(InflaterInputStream.java:83) ~[?:?]
+	at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:77) ~[?:?]
+	at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:91) ~[?:?]
+	at net.simplace.core.service.IOHelper.getInputStream(IOHelper.java:696) ~[simplace_core.jar:?]
+	at net.simplace.core.service.IOHelper.readLinesOfFile(IOHelper.java:577) ~[simplace_core.jar:?]
+	at net.simplace.core.service.IOHelper.readFileToArray(IOHelper.java:795) ~[simplace_core.jar:?]
+	at net.simplace.sim.io.FileData.getDataCache(FileData.java:145) ~[simplace_core.jar:?]
+	at net.simplace.sim.io.resources.adapter.CSVResourceAdapter.getData(CSVResourceAdapter.java:135) ~[simplace_core.jar:?]
+	... 4 more
+[WARN ] 2026-02-19 20:58:41.307 [main] FWSimResourceCache - Missing Value in XML-Resource: slim has 45 should have: 43Columns
+[ERROR] 2026-02-19 21:00:50.582 [pool-3-thread-1] FWSimSimulation - Error in init method of FWSimModel - Model stopped:49662_00__TESTSIMULATION_0000000
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "net.simplace.sim.util.FWSimVariable.getValue()" is null
+	at net.simplace.sim.components.soil.temperature.SnowCoverCalculator.init(SnowCoverCalculator.java:284) ~[simplace_modules.jar:?]
+	at net.simplace.sim.model.FWSimComponent.initialize(FWSimComponent.java:610) ~[simplace_core.jar:?]
+	at net.simplace.sim.model.FWSimModel.init(FWSimModel.java:219) ~[simplace_core.jar:?]
+	at net.simplace.sim.FWSimSimulation.init(FWSimSimulation.java:123) [simplace_core.jar:?]
+	at net.simplace.sim.FWSimSimulation.call(FWSimSimulation.java:105) [simplace_core.jar:?]
+	at net.simplace.sim.FWSimSimulation.call(FWSimSimulation.java:1) [simplace_core.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+[ERROR] 2026-02-19 21:00:50.600 [pool-3-thread-1] FWSimModel - In Model: 49662_00__TESTSIMULATION_0000000
+java.lang.NullPointerException: Cannot load from object array because the return value of "net.simplace.sim.util.FWSimVariable.getValue()" is null
+	at net.simplace.sim.components.experimental.slim.NPKDemandSlimNP.calculateSoilNitrogen(NPKDemandSlimNP.java:2829) ~[simplace_modules.jar:?]
+	at net.simplace.sim.components.experimental.slim.NPKDemandSlimNP.process(NPKDemandSlimNP.java:2169) ~[simplace_modules.jar:?]
+	at net.simplace.sim.model.FWSimComponent.doProcess(FWSimComponent.java:738) ~[simplace_core.jar:?]
+	at net.simplace.sim.model.FWSimModel.step(FWSimModel.java:280) [simplace_core.jar:?]
+	at net.simplace.sim.model.FWSimModel.call(FWSimModel.java:245) [simplace_core.jar:?]
+	at net.simplace.sim.FWSimSimulation.call(FWSimSimulation.java:106) [simplace_core.jar:?]
+	at net.simplace.sim.FWSimSimulation.call(FWSimSimulation.java:1) [simplace_core.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+[ERROR] 2026-02-19 21:00:50.601 [pool-3-thread-1] FWSimModel - Error in FWSimModel - Model stopped:49662_00__TESTSIMULATION_0000000
+java.lang.NullPointerException: Cannot load from object array because the return value of "net.simplace.sim.util.FWSimVariable.getValue()" is null
+	at net.simplace.sim.components.experimental.slim.NPKDemandSlimNP.calculateSoilNitrogen(NPKDemandSlimNP.java:2829) ~[simplace_modules.jar:?]
+	at net.simplace.sim.components.experimental.slim.NPKDemandSlimNP.process(NPKDemandSlimNP.java:2169) ~[simplace_modules.jar:?]
+	at net.simplace.sim.model.FWSimComponent.doProcess(FWSimComponent.java:738) ~[simplace_core.jar:?]
+	at net.simplace.sim.model.FWSimModel.step(FWSimModel.java:280) ~[simplace_core.jar:?]
+	at net.simplace.sim.model.FWSimModel.call(FWSimModel.java:245) [simplace_core.jar:?]
+	at net.simplace.sim.FWSimSimulation.call(FWSimSimulation.java:106) [simplace_core.jar:?]
+	at net.simplace.sim.FWSimSimulation.call(FWSimSimulation.java:1) [simplace_core.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+[WARN ] 2026-02-19 21:09:00.476 [main] FWSimResourceCache - Missing Value in XML-Resource: slim has 45 should have: 43Columns
+[ERROR] 2026-02-19 21:11:05.266 [pool-3-thread-1] FWSimSimulation - Error in init method of FWSimModel - Model stopped:49662_00__TESTSIMULATION_0000000
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "net.simplace.sim.util.FWSimVariable.getValue()" is null
+	at net.simplace.sim.components.soil.temperature.SnowCoverCalculator.init(SnowCoverCalculator.java:284) ~[simplace_modules.jar:?]
+	at net.simplace.sim.model.FWSimComponent.initialize(FWSimComponent.java:610) ~[simplace_core.jar:?]
+	at net.simplace.sim.model.FWSimModel.init(FWSimModel.java:219) ~[simplace_core.jar:?]
+	at net.simplace.sim.FWSimSimulation.init(FWSimSimulation.java:123) [simplace_core.jar:?]
+	at net.simplace.sim.FWSimSimulation.call(FWSimSimulation.java:105) [simplace_core.jar:?]
+	at net.simplace.sim.FWSimSimulation.call(FWSimSimulation.java:1) [simplace_core.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+[ERROR] 2026-02-19 21:11:05.283 [pool-3-thread-1] FWSimModel - In Model: 49662_00__TESTSIMULATION_0000000
+java.lang.NullPointerException: Cannot load from object array because the return value of "net.simplace.sim.util.FWSimVariable.getValue()" is null
+	at net.simplace.sim.components.experimental.slim.NPKDemandSlimNP.calculateSoilNitrogen(NPKDemandSlimNP.java:2829) ~[simplace_modules.jar:?]
+	at net.simplace.sim.components.experimental.slim.NPKDemandSlimNP.process(NPKDemandSlimNP.java:2169) ~[simplace_modules.jar:?]
+	at net.simplace.sim.model.FWSimComponent.doProcess(FWSimComponent.java:738) ~[simplace_core.jar:?]
+	at net.simplace.sim.model.FWSimModel.step(FWSimModel.java:280) [simplace_core.jar:?]
+	at net.simplace.sim.model.FWSimModel.call(FWSimModel.java:245) [simplace_core.jar:?]
+	at net.simplace.sim.FWSimSimulation.call(FWSimSimulation.java:106) [simplace_core.jar:?]
+	at net.simplace.sim.FWSimSimulation.call(FWSimSimulation.java:1) [simplace_core.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+[ERROR] 2026-02-19 21:11:05.283 [pool-3-thread-1] FWSimModel - Error in FWSimModel - Model stopped:49662_00__TESTSIMULATION_0000000
+java.lang.NullPointerException: Cannot load from object array because the return value of "net.simplace.sim.util.FWSimVariable.getValue()" is null
+	at net.simplace.sim.components.experimental.slim.NPKDemandSlimNP.calculateSoilNitrogen(NPKDemandSlimNP.java:2829) ~[simplace_modules.jar:?]
+	at net.simplace.sim.components.experimental.slim.NPKDemandSlimNP.process(NPKDemandSlimNP.java:2169) ~[simplace_modules.jar:?]
+	at net.simplace.sim.model.FWSimComponent.doProcess(FWSimComponent.java:738) ~[simplace_core.jar:?]
+	at net.simplace.sim.model.FWSimModel.step(FWSimModel.java:280) ~[simplace_core.jar:?]
+	at net.simplace.sim.model.FWSimModel.call(FWSimModel.java:245) [simplace_core.jar:?]
+	at net.simplace.sim.FWSimSimulation.call(FWSimSimulation.java:106) [simplace_core.jar:?]
+	at net.simplace.sim.FWSimSimulation.call(FWSimSimulation.java:1) [simplace_core.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+[WARN ] 2026-02-19 21:19:30.718 [main] FWSimResourceCache - Missing Value in XML-Resource: slim has 45 should have: 43Columns
+[ERROR] 2026-02-19 21:21:31.168 [pool-3-thread-1] FWSimSimulation - Error in init method of FWSimModel - Model stopped:49662_00__TESTSIMULATION_0000000
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "net.simplace.sim.util.FWSimVariable.getValue()" is null
+	at net.simplace.sim.components.soil.temperature.SnowCoverCalculator.init(SnowCoverCalculator.java:284) ~[simplace_modules.jar:?]
+	at net.simplace.sim.model.FWSimComponent.initialize(FWSimComponent.java:610) ~[simplace_core.jar:?]
+	at net.simplace.sim.model.FWSimModel.init(FWSimModel.java:219) ~[simplace_core.jar:?]
+	at net.simplace.sim.FWSimSimulation.init(FWSimSimulation.java:123) [simplace_core.jar:?]
+	at net.simplace.sim.FWSimSimulation.call(FWSimSimulation.java:105) [simplace_core.jar:?]
+	at net.simplace.sim.FWSimSimulation.call(FWSimSimulation.java:1) [simplace_core.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+[ERROR] 2026-02-19 21:21:31.195 [pool-3-thread-1] FWSimModel - In Model: 49662_00__TESTSIMULATION_0000000
+java.lang.NullPointerException: Cannot load from object array because the return value of "net.simplace.sim.util.FWSimVariable.getValue()" is null
+	at net.simplace.sim.components.experimental.slim.NPKDemandSlimNP.calculateSoilNitrogen(NPKDemandSlimNP.java:2829) ~[simplace_modules.jar:?]
+	at net.simplace.sim.components.experimental.slim.NPKDemandSlimNP.process(NPKDemandSlimNP.java:2169) ~[simplace_modules.jar:?]
+	at net.simplace.sim.model.FWSimComponent.doProcess(FWSimComponent.java:738) ~[simplace_core.jar:?]
+	at net.simplace.sim.model.FWSimModel.step(FWSimModel.java:280) [simplace_core.jar:?]
+	at net.simplace.sim.model.FWSimModel.call(FWSimModel.java:245) [simplace_core.jar:?]
+	at net.simplace.sim.FWSimSimulation.call(FWSimSimulation.java:106) [simplace_core.jar:?]
+	at net.simplace.sim.FWSimSimulation.call(FWSimSimulation.java:1) [simplace_core.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+[ERROR] 2026-02-19 21:21:31.196 [pool-3-thread-1] FWSimModel - Error in FWSimModel - Model stopped:49662_00__TESTSIMULATION_0000000
+java.lang.NullPointerException: Cannot load from object array because the return value of "net.simplace.sim.util.FWSimVariable.getValue()" is null
+	at net.simplace.sim.components.experimental.slim.NPKDemandSlimNP.calculateSoilNitrogen(NPKDemandSlimNP.java:2829) ~[simplace_modules.jar:?]
+	at net.simplace.sim.components.experimental.slim.NPKDemandSlimNP.process(NPKDemandSlimNP.java:2169) ~[simplace_modules.jar:?]
+	at net.simplace.sim.model.FWSimComponent.doProcess(FWSimComponent.java:738) ~[simplace_core.jar:?]
+	at net.simplace.sim.model.FWSimModel.step(FWSimModel.java:280) ~[simplace_core.jar:?]
+	at net.simplace.sim.model.FWSimModel.call(FWSimModel.java:245) [simplace_core.jar:?]
+	at net.simplace.sim.FWSimSimulation.call(FWSimSimulation.java:106) [simplace_core.jar:?]
+	at net.simplace.sim.FWSimSimulation.call(FWSimSimulation.java:1) [simplace_core.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+[WARN ] 2026-02-19 21:35:00.281 [main] FWSimResourceCache - Missing Value in XML-Resource: slim has 45 should have: 43Columns
+[ERROR] 2026-02-19 21:37:03.626 [pool-3-thread-1] FWSimSimulation - Error in init method of FWSimModel - Model stopped:49662_00__TESTSIMULATION_0000000
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "net.simplace.sim.util.FWSimVariable.getValue()" is null
+	at net.simplace.sim.components.soil.temperature.SnowCoverCalculator.init(SnowCoverCalculator.java:284) ~[simplace_modules.jar:?]
+	at net.simplace.sim.model.FWSimComponent.initialize(FWSimComponent.java:610) ~[simplace_core.jar:?]
+	at net.simplace.sim.model.FWSimModel.init(FWSimModel.java:219) ~[simplace_core.jar:?]
+	at net.simplace.sim.FWSimSimulation.init(FWSimSimulation.java:123) [simplace_core.jar:?]
+	at net.simplace.sim.FWSimSimulation.call(FWSimSimulation.java:105) [simplace_core.jar:?]
+	at net.simplace.sim.FWSimSimulation.call(FWSimSimulation.java:1) [simplace_core.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+[WARN ] 2026-02-19 21:42:08.605 [main] FWSimResourceCache - Missing Value in XML-Resource: slim has 45 should have: 43Columns
+[ERROR] 2026-02-19 21:44:08.657 [pool-3-thread-1] FWSimSimulation - Error in init method of FWSimModel - Model stopped:49662_00__TESTSIMULATION_0000000
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "net.simplace.sim.util.FWSimVariable.getValue()" is null
+	at net.simplace.sim.components.soil.temperature.SnowCoverCalculator.init(SnowCoverCalculator.java:284) ~[simplace_modules.jar:?]
+	at net.simplace.sim.model.FWSimComponent.initialize(FWSimComponent.java:610) ~[simplace_core.jar:?]
+	at net.simplace.sim.model.FWSimModel.init(FWSimModel.java:219) ~[simplace_core.jar:?]
+	at net.simplace.sim.FWSimSimulation.init(FWSimSimulation.java:123) [simplace_core.jar:?]
+	at net.simplace.sim.FWSimSimulation.call(FWSimSimulation.java:105) [simplace_core.jar:?]
+	at net.simplace.sim.FWSimSimulation.call(FWSimSimulation.java:1) [simplace_core.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+[WARN ] 2026-02-19 21:46:38.616 [main] FWSimResourceCache - Missing Value in XML-Resource: slim has 45 should have: 43Columns
+[WARN ] 2026-02-19 21:50:41.321 [main] FWSimResourceCache - Missing Value in XML-Resource: slim has 45 should have: 43Columns
+[ERROR] 2026-02-19 23:12:01.036 [main] FWSimEngine - Problems getting RootElement from Solution File/home/hydros/Downloads/SIMPLACE/AGROECO4CAST_AF/solution/AF_test.sol.xml orig: /home/hydros/Downloads/SIMPLACE/AGROECO4CAST_AF/solution/AF_test.sol.xml
+java.io.IOException: org.jdom2.input.JDOMParseException: Error on line 196: The string "--" is not permitted within comments.
+	at net.simplace.sim.io.FileData.getRootElement(FileData.java:180) ~[simplace_core.jar:?]
+	at net.simplace.sim.FWSimEngine.prepareSession(FWSimEngine.java:377) [simplace_core.jar:?]
+	at net.simplace.sim.FWSimEngine.prepareSession(FWSimEngine.java:282) [simplace_core.jar:?]
+	at net.simplace.sim.wrapper.SimplaceWrapper.prepareSession(SimplaceWrapper.java:210) [simplace_core.jar:?]
+Caused by: org.jdom2.input.JDOMParseException: Error on line 196: The string "--" is not permitted within comments.
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:234) ~[jdom-2.0.6.1.jar:?]
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:253) ~[jdom-2.0.6.1.jar:?]
+	at org.jdom2.input.SAXBuilder.build(SAXBuilder.java:1079) ~[jdom-2.0.6.1.jar:2.0.6.1]
+	at net.simplace.core.service.XMLHelper.getElementFromStream(XMLHelper.java:440) ~[simplace_core.jar:?]
+	at net.simplace.sim.io.FileData.getRootElement(FileData.java:170) ~[simplace_core.jar:?]
+	... 3 more
+Caused by: org.xml.sax.SAXParseException: The string "--" is not permitted within comments.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204) ~[?:?]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanComment(XMLScanner.java:818) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanComment(XMLDocumentFragmentScannerImpl.java:1079) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2914) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224) ~[?:?]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637) ~[?:?]
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:217) ~[jdom-2.0.6.1.jar:?]
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:253) ~[jdom-2.0.6.1.jar:?]
+	at org.jdom2.input.SAXBuilder.build(SAXBuilder.java:1079) ~[jdom-2.0.6.1.jar:2.0.6.1]
+	at net.simplace.core.service.XMLHelper.getElementFromStream(XMLHelper.java:440) ~[simplace_core.jar:?]
+	at net.simplace.sim.io.FileData.getRootElement(FileData.java:170) ~[simplace_core.jar:?]
+	... 3 more
+[ERROR] 2026-02-19 23:12:01.046 [main] SimplaceWrapper - IO-Exception while reading project or solution
+java.io.IOException: Problems getting RootElement from Solution File/home/hydros/Downloads/SIMPLACE/AGROECO4CAST_AF/solution/AF_test.sol.xml
+	at net.simplace.sim.FWSimEngine.prepareSession(FWSimEngine.java:382) ~[simplace_core.jar:?]
+	at net.simplace.sim.FWSimEngine.prepareSession(FWSimEngine.java:282) ~[simplace_core.jar:?]
+	at net.simplace.sim.wrapper.SimplaceWrapper.prepareSession(SimplaceWrapper.java:210) [simplace_core.jar:?]
+[ERROR] 2026-02-19 23:14:09.057 [main] FWSimEngine - Problems getting RootElement from Solution File/home/hydros/Downloads/SIMPLACE/AGROECO4CAST_AF/solution/AF_test.sol.xml orig: /home/hydros/Downloads/SIMPLACE/AGROECO4CAST_AF/solution/AF_test.sol.xml
+java.io.IOException: org.jdom2.input.JDOMParseException: Error on line 196: The string "--" is not permitted within comments.
+	at net.simplace.sim.io.FileData.getRootElement(FileData.java:180) ~[simplace_core.jar:?]
+	at net.simplace.sim.FWSimEngine.prepareSession(FWSimEngine.java:377) [simplace_core.jar:?]
+	at net.simplace.sim.FWSimEngine.prepareSession(FWSimEngine.java:282) [simplace_core.jar:?]
+	at net.simplace.sim.wrapper.SimplaceWrapper.prepareSession(SimplaceWrapper.java:210) [simplace_core.jar:?]
+Caused by: org.jdom2.input.JDOMParseException: Error on line 196: The string "--" is not permitted within comments.
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:234) ~[jdom-2.0.6.1.jar:?]
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:253) ~[jdom-2.0.6.1.jar:?]
+	at org.jdom2.input.SAXBuilder.build(SAXBuilder.java:1079) ~[jdom-2.0.6.1.jar:2.0.6.1]
+	at net.simplace.core.service.XMLHelper.getElementFromStream(XMLHelper.java:440) ~[simplace_core.jar:?]
+	at net.simplace.sim.io.FileData.getRootElement(FileData.java:170) ~[simplace_core.jar:?]
+	... 3 more
+Caused by: org.xml.sax.SAXParseException: The string "--" is not permitted within comments.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204) ~[?:?]
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanComment(XMLScanner.java:818) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanComment(XMLDocumentFragmentScannerImpl.java:1079) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2914) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112) ~[?:?]
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141) ~[?:?]
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224) ~[?:?]
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637) ~[?:?]
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:217) ~[jdom-2.0.6.1.jar:?]
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:253) ~[jdom-2.0.6.1.jar:?]
+	at org.jdom2.input.SAXBuilder.build(SAXBuilder.java:1079) ~[jdom-2.0.6.1.jar:2.0.6.1]
+	at net.simplace.core.service.XMLHelper.getElementFromStream(XMLHelper.java:440) ~[simplace_core.jar:?]
+	at net.simplace.sim.io.FileData.getRootElement(FileData.java:170) ~[simplace_core.jar:?]
+	... 3 more
+[ERROR] 2026-02-19 23:14:09.079 [main] SimplaceWrapper - IO-Exception while reading project or solution
+java.io.IOException: Problems getting RootElement from Solution File/home/hydros/Downloads/SIMPLACE/AGROECO4CAST_AF/solution/AF_test.sol.xml
+	at net.simplace.sim.FWSimEngine.prepareSession(FWSimEngine.java:382) ~[simplace_core.jar:?]
+	at net.simplace.sim.FWSimEngine.prepareSession(FWSimEngine.java:282) ~[simplace_core.jar:?]
+	at net.simplace.sim.wrapper.SimplaceWrapper.prepareSession(SimplaceWrapper.java:210) [simplace_core.jar:?]
